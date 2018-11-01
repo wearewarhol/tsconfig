@@ -22,7 +22,7 @@
     "member-ordering": false,
     "space-before-function-paren": {
       "named": "always"
-    },
+    }
   },
   "rulesDirectory": [],
   "linterOptions": {
