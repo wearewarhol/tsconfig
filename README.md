@@ -14,7 +14,7 @@ In `tsconfig.json` add the following:
 
 ```json
 {
-  "extends": "./node_modules/@warhol/tsconfig/tsconfig.json",
+  "extends": "./node_modules/@warhol/tsconfig/tsconfig.json"
 }
 ```
 
@@ -22,7 +22,7 @@ In `tslint.json` add the following:
 
 ```json
 {
-  "extends": "./node_modules/@warhol/tsconfig/tslint.json",
+  "extends": "./node_modules/@warhol/tsconfig/tslint.json"
 }
 ```
 
