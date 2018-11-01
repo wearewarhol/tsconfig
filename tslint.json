@@ -1,5 +1,5 @@
 {
-  "defaultSeverity": "error",
+  "defaultSeverity": "warning",
   "extends": [
     "tslint:recommended"
   ],
@@ -14,7 +14,15 @@
       "options": [
         "never-prefix"
       ]
-    }
+    },
+    "no-consecutive-blank-lines": false,
+    "interface-over-type-literal": false,
+    "object-literal-sort-keys": false,
+    "ordered-imports": false,
+    "member-ordering": false,
+    "space-before-function-paren": {
+      "named": "always"
+    },
   },
   "rulesDirectory": [],
   "linterOptions": {
