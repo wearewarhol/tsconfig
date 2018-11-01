@@ -1,0 +1,20 @@
+{
+  "name": "@warhol/tsconfig",
+  "version": "0.1.0",
+  "description": "This module includes Warhol’s global typescript configuration.",
+  "main": "",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/wearewarhol/tsconfig.git"
+  },
+  "keywords": [
+    "tsconfig",
+    "tslint"
+  ],
+  "author": "micro-tools",
+  "license": "MIT",
+  "peerDependencies": {
+    "tslint": ">= 5",
+    "typescript": ">= 2.7"
+  }
+}
