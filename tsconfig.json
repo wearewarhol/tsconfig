@@ -7,11 +7,6 @@
     "noFallthroughCasesInSwitch": true,
     "noImplicitAny": true,
     "strict": true,
-    "outDir": "dist/"
-  },
-  "exclude": [
-    "./coverage",
-    "./node_modules",
-    "./dist"
-  ]
+    "outDir": "../../../dist/"
+  }
 }

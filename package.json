@@ -1,6 +1,6 @@
 {
   "name": "@warhol/tsconfig",
-  "version": "0.2.1",
+  "version": "1.0.0",
   "description": "This module includes Warhol’s global typescript configuration.",
   "main": "",
   "repository": {
