@@ -11,7 +11,7 @@
     "tsconfig",
     "tslint"
   ],
-  "author": "micro-tools",
+  "author": "wearewarhol",
   "license": "MIT",
   "peerDependencies": {
     "tslint": ">= 5",
