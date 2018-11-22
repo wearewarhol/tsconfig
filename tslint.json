@@ -23,7 +23,8 @@
     "prefer-object-spread": true,
     "space-before-function-paren": {
       "named": "always"
-    }
+    },
+    "max-classes-per-file": false,
   },
   "rulesDirectory": [],
   "linterOptions": {
