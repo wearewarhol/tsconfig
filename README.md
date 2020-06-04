@@ -18,24 +18,15 @@ In `tsconfig.json` add the following:
 }
 ```
 
-In `tslint.json` add the following:
+In `.eslintrc.js` add the following:
 
-```json
-{
-  "extends": "./node_modules/@warhol/tsconfig/tslint.json"
-}
+```js
+module.exports = {
+  extends: ["./node_modules/@warhol/tsconfig/eslint-react"],
+};
 ```
 
-You can also add a `nodemon.json` file for development:
-
-```json
-{
-  "ext": "ts,html,js,json",
-  "execMap": {
-    "ts": "ts-node"
-  }
-}
-```
+You can also add a `nodemon.json` file for development, like [here](./examples/nodemon.json).
 
 ## License
 

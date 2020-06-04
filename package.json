@@ -1,7 +1,7 @@
 {
   "name": "@warhol/tsconfig",
   "version": "2.0.0-pre-0",
-  "description": "This module includes Warhol’s global typescript configuration.",
+  "description": "This module includes Warhol’s global typescript configuration and linting rules",
   "main": "",
   "repository": {
     "type": "git",
