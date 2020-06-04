@@ -1,6 +1,6 @@
 {
   "name": "@warhol/tsconfig",
-  "version": "1.1.1",
+  "version": "2.0.0-pre-0",
   "description": "This module includes Warhol’s global typescript configuration.",
   "main": "",
   "repository": {
@@ -9,12 +9,26 @@
   },
   "keywords": [
     "tsconfig",
-    "tslint"
+    "linting"
   ],
   "author": "wearewarhol",
   "license": "MIT",
   "peerDependencies": {
-    "tslint": ">= 5",
-    "typescript": ">= 2.7"
+    "eslint": ">= 7",
+    "typescript": ">=3.9"
+  },
+  "dependencies": {
+    "@typescript-eslint/eslint-plugin": "^3.1.0",
+    "@typescript-eslint/parser": "^3.1.0",
+    "eslint-config-airbnb": "^18.1.0",
+    "eslint-config-prettier": "^6.11.0",
+    "eslint-config-react": "^1.1.7",
+    "eslint-plugin-prettier": "^3.1.3",
+    "eslint-plugin-react": "^7.20.0",
+    "prettier": "^2.0.5"
+  },
+  "devDependencies": {
+    "eslint": "^7.1.0",
+    "typescript": "^3.9.3"
   }
 }
